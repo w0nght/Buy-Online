@@ -1,0 +1,67 @@
+<!-- login.htm -->
+<!-- BuyOnline customer login html page -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="customer login" />
+	<meta name="keywords" content="HTML, PHP, JavaScript, XML, DOM" />
+	<meta name="author" content="Hei Wong" />
+	<script type="text/javascript" src="server.js"></script>
+	<style>
+		body { text-align: center; }
+		.hidden { display: none; }
+		table {
+			border-collapse: collapse;
+			border-radius: 1.4em;
+			overflow: hidden;
+			margin: 0 auto;
+			color: #ffffff;
+		}
+		th, td {
+			padding: 1em;
+			background: #5a4dae;
+			border-bottom: 2px solid #ffffff; 
+		}
+		input {
+			width: 80%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		button {
+			text-align: center;
+			padding: 12px 22px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			align-self: center;
+		}
+	</style>
+	<title>Customer Login</title>
+</head>
+<body>
+	<h1>BuyOnline Customer Login</h1>
+		<table>
+			<tr>
+				<td><label for="id">Email: </label></td>
+				<td><input type="text" name="email" id="email" /></td>
+			</tr>
+			<tr>
+				<td><label for="password">Password: </label></td>
+				<td><input type="password" name="password" id="password" /></td>
+      </tr>
+			<tr class="btnRow">
+				<td style="padding-left: 50px;"><button onclick="clearLoginForm();">Reset</button></td>
+				<td><button id="loginBtn" onclick="customerLogin();">Login</button></td>
+			</tr>
+    </table>
+	</form>
+	<p id="msg"></p>
+	<div id="loggedIn">
+	</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!-- processing.htm -->
+<!-- BuyOnline manager controls processing html page -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Buy Online Processing" />
+	<meta name="keywords" content="HTML, PHP, JavaScript" />
+	<meta name="author" content="Hei Wong" />
+	<script type="text/javascript" src="server.js"></script>
+	<style>
+		body { text-align: center; }
+		.menu { text-align: center; height: 100px; overflow: hidden; align-items: center;}
+		table {
+			border-collapse: collapse;
+			border-radius: 1.4em;
+			overflow: hidden;
+			margin: 0 auto;
+			color: #ffffff;
+			display: inline-table;
+		}
+		th, td {
+			padding: 1em;
+			background: #5a4dae;
+			border-bottom: 2px solid #ffffff; 
+		}
+		button {
+			padding: 12px 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+
+	</style>
+	<title>Processing</title>
+</head>
+<body onload="getProcessData()">
+	<div id="menubar" class="menu">
+		<a href="listing.htm">Listing</a>
+		<a href="processing.htm">Processing</a>
+		<a href="logout.htm">Logout</a>
+		<hr>
+	</div>
+	<h1>Processing Form</h1>
+	<div id="form">
+	</div>
+	<p id="msg"></p>
+</body>
+</html>

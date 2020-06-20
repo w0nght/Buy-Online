@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<customers>
+  <customer>
+    <id>0</id>
+    <firstname>Sam</firstname>
+    <lastname>A</lastname>
+    <email>sama@swin.edu.au</email>
+    <password>1414</password>
+    <phone>(04)44422424</phone>
+  </customer>
+  <customer>
+    <id>1</id>
+    <firstname>Cat</firstname>
+    <lastname>S</lastname>
+    <email>cats@swin.edu.au</email>
+    <password>1414</password>
+    <phone>(04)00022424</phone>
+  </customer>
+  <customer>
+    <id>2</id>
+    <firstname>Tom</firstname>
+    <lastname>L</lastname>
+    <email>toml@swin.edu.au</email>
+    <password>1414</password>
+    <phone>03 00022424</phone>
+  </customer>
+  <customer>
+    <id>3</id>
+    <firstname>Matt</firstname>
+    <lastname>J</lastname>
+    <email>matt@swin.edu.au</email>
+    <password>1414</password>
+    <phone>02 00022888</phone>
+  </customer>
+  <customer>
+    <id>4</id>
+    <firstname>Jason</firstname>
+    <lastname>W</lastname>
+    <email>jasonw@swin.edu.au</email>
+    <password>1414</password>
+    <phone>04 00022877</phone>
+  </customer>
+  <customer>
+    <id>5</id>
+    <firstname>Jason</firstname>
+    <lastname>W</lastname>
+    <email>jasonw@sin.edu.au</email>
+    <password>dd</password>
+    <phone>04 00022877</phone>
+  </customer>
+  <customer>
+    <id>6</id>
+    <firstname>John</firstname>
+    <lastname>J</lastname>
+    <email>johnj@gmail.com</email>
+    <password>13</password>
+    <phone>01 93939393</phone>
+  </customer>
+  <customer>
+    <id>7</id>
+    <firstname>JB</firstname>
+    <lastname>X</lastname>
+    <email>jb@123.com</email>
+    <password>123</password>
+    <phone>04 44449999</phone>
+  </customer>
+</customers>

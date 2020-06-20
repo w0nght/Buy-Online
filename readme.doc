@@ -1,0 +1,70 @@
+// Student info
+Hei Tung Wong
+#101664795
+Tuesday 2:30pm lab
+
+// URL for assignement 2
+https://mercury.swin.edu.au/cos80021/s101664795/assignment2/
+
+// Brief instructions on how to use the system
+The use the function of purchasing item in BuyOnline, needed to be registered user of the system. 
+
+New customer can visit the register page via the main page on BuyOnline. Users must enter their personal details in order to register, such as their email address, full name, and password. After register, customer will be prompted with a link to head back to the main page, therefore customer could log in to the system by entering their email address and password in the login page. After login, customer will be sent to the buying page, where the customer can select the item they wish to buy, and add the item into their shopping cart. Customer then can choose between discard the shopping cart, or confirm the purchase.
+
+All purchaseble items were added to the system by manager via the listing page by manager, Managers can access the system on the login page with the pre-set login credential, after logged in, managers can add purchaseble items to the system in the listing page, managers can also process the sold item, have the item removed from the system in processing page.
+
+Both customer and manager can log out of the system via a log out button located on the navigation menu.
+
+// a list of all the files in the system
+1. addToCart.php
+    > server file, to control the "Add to cart" button in Buying page, handle the update of the item and send item to the shopping cart
+2. buying.htm
+    > html page of buying
+3. buying.php
+    > server file, to retrieve all item where the quantity is greater than zero, using xpath
+4. buyonline.htm
+    > html page of BuyOnline main page, link to customer register page and login page, also to the manager login page
+5. cancelPurchase.php
+    > server file, to control the "Cancel Purchase" button in Buying page
+6. checkList.txt
+    > text file with a check list of assignment 2's tasks
+7. customer.xml
+    > xml file contains all cusotmer details 
+8. confirmPurchase.php
+    > server file, to control the "Confirm Purchase" button in Buying page
+9. goods.xml
+    > xml file contains all purchaseable items in BuyOnline
+10. listing.htm
+    > html page of BuyOnline listing page, for manager to add item into the system
+11. listing.php
+    > server file, to handle the item that the manager entered in the listing page
+12. login.htm
+    > html page of BuyOnline login page, for customer to log into BuyOnline
+13. login.php
+    > server file, to handle the customer login inputs, check against the customer xml file
+14. logout.htm
+    > html page of BuyOnline logout page, say goodbye to the manager / customer
+15. logout.php
+    > server file to unset all session variables
+16. manager.txt
+    > text file with a list of manager loging credential
+17. mlogin.htm
+    > html page of BuyOnline main page, link to customer register page and login page, also to the manager login page
+18. mlogin.php
+    > server file, to handle the manager login inputs, check against the manager txt file
+19. process.php
+    > server file, to handle the process all items in the process from, to remove item from goods xml file when a item sold out
+20. processing.htm
+    > html page of BuyOnline processing page, for manager to control the processing 
+21. processingGet.php
+    > server file, to retrieve all item where the quantity sold is non-zero , using xpath
+22. readme.doc
+    > this document, with a brief instructions on how to use the system and a list of all the files in the system
+23. register.htm
+    > html page of BuyOnline register page, for new customer to register to BuyOnline
+24. register.php
+    > server file, to handle the manager login inputs, check against the customer txt file if the email address is unique 
+25. removeFromCart.php
+    > server file, to control the "Remove from cart" button in Buying page
+26. server.js
+    > javascript file contains all the control, responsible to print table based on the response from the server

@@ -1,0 +1,92 @@
+<!-- listing.htm -->
+<!-- BuyOnline manager controls listing html page -->
+<!-- Store manager to add an item into BuyOnline system -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="Buy Online Listing" />
+	<meta name="keywords" content="HTML, PHP, JavaScript" />
+	<meta name="author" content="Hei Wong" />
+	<script type="text/javascript" src="server.js"></script>
+	<style>
+		body { text-align: center; }
+		.menu { text-align: center; height: 100px; overflow: hidden; align-items: center;}
+		table {
+			border-collapse: collapse;
+			border-radius: 1.4em;
+			overflow: hidden;
+			margin: 0 auto;
+			color: #ffffff;
+		}
+		th, td {
+			padding: 1em;
+			background: #5a4dae;
+			border-bottom: 2px solid #ffffff; 
+		}
+		input[type=text], input[type=number], textarea {
+			width: 80%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		/* input number without arrows */
+		/* Chrome, Safari, Edge, Opera */
+		input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
+		/* input number without arrows */
+		/* Firefox */ 
+		input[type=number] {
+			-moz-appearance: textfield;
+		}
+		button {
+			padding: 12px 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+	</style>
+	<title>Listing</title>
+</head>
+<body onload="loadUser()">
+	<div id="menubar" class="menu">
+		<a href="listing.htm">Listing</a>
+		<a href="processing.htm">Processing</a>
+		<a href="logout.htm">Logout</a>
+		<hr>
+	</div>
+	<h1>Add new item</h1>
+	<div>
+		<table>
+			<tr>
+				<td><label for="name">Item Name: </label></td>
+				<td><input type="text" name="itemname" id="itemname" /></td>
+      </tr>
+      <tr>
+				<td><label for="price">Item Price: </label></td>
+				<!-- set the step value - two decimal places -->
+				<td><input type="number" name="itemprice" id="itemprice" step="0.01" min="0" /></td>
+			</tr>
+			<tr>
+				<td><label for="qty">Item Quantity: </label></td>
+				<td><input type="number" name="itemqty" id="itemqty" min="0" /></td>
+			</tr>
+			<tr>
+				<td><label for="des">Item Description: </label></td>
+				<td><textarea type="text" name="itemdes" id="itemdes"></textarea></td>
+			</tr>
+			<tr>
+				<td><button onclick="addNewItemListing();">Add Item</button></td>
+				<td><button onclick="clearAddNewItemForm();">Reset</button></td>
+			</tr>
+		</table>
+	</div>
+	<p id="msg"></p>
+</body>
+</html>

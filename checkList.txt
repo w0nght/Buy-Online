@@ -1,0 +1,23 @@
+Assessment item          Completed
+----------------------------------
+readme file              YES
+Task 1                   YES
+Task 2.1                 YES
+Task 2.2                 YES
+Task 2.3                 YES
+Task 2.4                 YES
+Task 3.1                 YES
+Task 3.2                 YES
+Task 3.3                 YES
+Task 3.4                 YES
+Task 3.5                 YES
+Task 4.1                 YES
+Task 4.2                 YES
+Task 4.3                 YES
+Task 4.4                 YES
+Task 4.5                 YES
+Task 4.6                 YES
+Task 4.7                 YES
+Task 5.1                 YES
+Task 5.2                 YES
+Task 5.3                 YES

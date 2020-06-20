@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<items>
+  <item>
+    <id>0</id>
+    <itemname>3M Matte Finish Magic Tape</itemname>
+    <itemprice>9.99</itemprice>
+    <itemqty>13</itemqty>
+    <itemdes>Refillable with Scotch Tape</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>1</id>
+    <itemname>Starbucks City series mug</itemname>
+    <itemprice>19.99</itemprice>
+    <itemqty>16</itemqty>
+    <itemdes>16 ft oz/473mL</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>1</qtysold>
+  </item>
+  <item>
+    <id>2</id>
+    <itemname>Apple iPhone 7</itemname>
+    <itemprice>599</itemprice>
+    <itemqty>14</itemqty>
+    <itemdes>32GB Black</itemdes>
+    <qtyonhold>1</qtyonhold>
+    <qtysold>1</qtysold>
+  </item>
+  <item>
+    <id>3</id>
+    <itemname>Apple iPhone 8</itemname>
+    <itemprice>699</itemprice>
+    <itemqty>2</itemqty>
+    <itemdes>32GB Black</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>5</id>
+    <itemname>Apple iPhone 3GS</itemname>
+    <itemprice>299</itemprice>
+    <itemqty>1</itemqty>
+    <itemdes>32GB White</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>6</id>
+    <itemname>ECOYA lychee sorbet candle</itemname>
+    <itemprice>30</itemprice>
+    <itemqty>1</itemqty>
+    <itemdes>50 hours burn time</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>7</id>
+    <itemname>NATIO Lavender Essential Oil</itemname>
+    <itemprice>12.99</itemprice>
+    <itemqty>15</itemqty>
+    <itemdes>25ml 0.8fl oz</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+  <item>
+    <id>8</id>
+    <itemname>CK ONE</itemname>
+    <itemprice>49.99</itemprice>
+    <itemqty>12</itemqty>
+    <itemdes>200ml</itemdes>
+    <qtyonhold>0</qtyonhold>
+    <qtysold>0</qtysold>
+  </item>
+</items>
